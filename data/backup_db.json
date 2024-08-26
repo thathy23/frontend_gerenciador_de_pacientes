@@ -17,7 +17,7 @@
              "sexo": "Masculino",
              "cpf": "987.654.321-00",
              "rg": "98.765.432-1",
-             "planoDeSaúde": null
+             "planoDeSaude": null
          },
          {
              "id": 3,
@@ -26,7 +26,7 @@
              "sexo": "Feminino",
              "cpf": "123.987.654-00",
              "rg": "32.165.498-7",
-             "planoDeSaúde": "Amil"
+             "planoDeSaude": "Amil"
          },
          {
              "id": 4,
@@ -35,7 +35,7 @@
              "sexo": "Masculino",
              "cpf": "456.321.789-00",
              "rg": "45.678.912-3",
-             "planoDeSaúde": "Bradesco Saúde"
+             "planoDeSaude": "Bradesco Saúde"
          },
          {
              "id": 5,
@@ -44,7 +44,7 @@
              "sexo": "Feminino",
              "cpf": "321.654.987-00",
              "rg": "67.891.234-5",
-             "planoDeSaúde": null
+             "planoDeSaude": null
          }
     ]   
   }

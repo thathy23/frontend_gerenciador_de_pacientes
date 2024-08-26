@@ -1,50 +1,40 @@
 {
-  "pacientes": [    
-   
-       {
-           "id": 1,
-           "nome": "Ana Paula Silva",
-           "telefone": "(11) 91234-5678",
-           "sexo": "Feminino",
-           "cpf": "123.456.789-00",
-           "rg": "12.345.678-9",
-           "planoDeSaude": "Unimed"
-       },
-       {
-           "id": 2,
-           "nome": "Carlos Eduardo de Souza",
-           "telefone": "(21) 99876-5432",
-           "sexo": "Masculino",
-           "cpf": "987.654.321-00",
-           "rg": "98.765.432-1",
-           "planoDeSaúde": null
-       },
-       {
-           "id": 3,
-           "nome": "Mariana Alves Pereira",
-           "telefone": "(31) 98765-4321",
-           "sexo": "Feminino",
-           "cpf": "123.987.654-00",
-           "rg": "32.165.498-7",
-           "planoDeSaúde": "Amil"
-       },
-       {
-           "id": 4,
-           "nome": "João Ricardo Nunes",
-           "telefone": "(19) 91234-8765",
-           "sexo": "Masculino",
-           "cpf": "456.321.789-00",
-           "rg": "45.678.912-3",
-           "planoDeSaúde": "Bradesco Saúde"
-       },
-       {
-           "id": 5,
-           "nome": "Fernanda Costa Lima",
-           "telefone": "(41) 97654-3210",
-           "sexo": "Feminino",
-           "cpf": "321.654.987-00",
-           "rg": "67.891.234-5",
-           "planoDeSaúde": null
-       }
-  ]   
+  "pacientes": [
+    {
+      "id": 1,
+      "nome": "Ana Paula Silva",
+      "telefone": "(11) 91234-5678",
+      "sexo": "Feminino",
+      "cpf": "123.456.789-00",
+      "rg": "12.345.678-9",
+      "planoDeSaude": "Unimed"
+    },
+    {
+      "id": 3,
+      "nome": "Mariana Alves Pereira",
+      "telefone": "(31) 98765-4321",
+      "sexo": "Feminino",
+      "cpf": "123.987.654-00",
+      "rg": "32.165.498-7",
+      "planoDeSaude": "Amil"
+    },
+    {
+      "id": 4,
+      "nome": "João Ricardo Nunes",
+      "telefone": "(19) 91234-8765",
+      "sexo": "Masculino",
+      "cpf": "456.321.789-00",
+      "rg": "45.678.912-3",
+      "planoDeSaude": "Bradesco Saúde"
+    },
+    {
+      "id": 5,
+      "nome": "Fernanda Costa Lima",
+      "telefone": "(41) 97654-3210",
+      "sexo": "Feminino",
+      "cpf": "321.654.987-00",
+      "rg": "67.891.234-5",
+      "planoDeSaude": null
+    }
+  ]
 }

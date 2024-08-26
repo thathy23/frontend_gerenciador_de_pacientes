@@ -77,24 +77,27 @@ const PacienteList = () => {
         </thead>
         <tbody>
        
-        {
-          <tr key={pacientes.id}>
-          <td>{pacientes.nome}</td>
-          <td>{pacientes.telefone}</td>
-          <td>{pacientes.sexo}</td>
-          <td>{pacientes.cpf}</td>
-          <td>{pacientes.rg}</td>
-          <td>{pacientes.planoDeSaude}</td>
-          <td>
-            <Link to={`/edit-pacientes/${pacientes.id}`} className="btn btn-sm btn-warning">
-              <FaEdit className="icon icon-btn" /> Editar
-            </Link>
-            <button onClick={() => abrirModal(pacientes)} className="btn btn-sm btn-danger">
-              <FaTrash className="icon icon-btn" /> Excluir
-            </button>
-          </td>
-       </tr>
-       
+        {     
+             pacientes.map(paciente => 
+                <tr key={paciente.id}>
+                <td>{paciente.nome}</td>
+                <td>{paciente.telefone}</td>
+                <td>{paciente.sexo}</td>
+                <td>{paciente.cpf}</td>
+                <td>{paciente.rg}</td>
+                <td>{paciente.planoDeSaude}</td>
+                <td>
+                  <Link to={`/edit-pacientes/${paciente.id}`} className="btn btn-sm btn-warning">
+                    <FaEdit className="icon icon-btn" /> Editar
+                  </Link>
+                  <button onClick={() => abrirModal(paciente)} className="btn btn-sm btn-danger">
+                    <FaTrash className="icon icon-btn" /> Excluir
+                  </button>
+                </td>
+             </tr>
+             
+          )
+          
         }
             
         </tbody>
